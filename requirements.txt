@@ -1,0 +1,15 @@
+geopandas==0.14.1
+geopy==2.4.0
+haversine==2.8.0
+langchain==0.1.14
+matplotlib==3.7.2
+matplotlib_scalebar==0.8.1
+networkx==3.2.1
+numpy==1.26.4
+osmnx==1.9.2
+pandas==2.2.1
+pyproj==3.6.1
+scipy==1.11.4
+spaghetti==1.6.2
+torch==2.1.0+cu118
+tqdm==4.66.1
