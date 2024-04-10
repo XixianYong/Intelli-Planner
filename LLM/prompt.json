@@ -1,0 +1,15 @@
+{
+  "mission": "Act as a professional urban planning expert and complete the urban functional area planning decision-making task based on the urban domain knowledge and the area conditions given you.",
+
+  "rules": "You will be given:\n1. Planning targets.\n2. Functional types around the area to be planned and current ratio of each functional types in the whole region.\n3. Based on the information given and your land planning expertise, you need to decide on the three most likely types of planning for the area.",
+
+  "planning goals": "1. Service: Ensure that there are 5 types of service facilities around each residential area, including: Business, Office, Recreation, School, Hospital,\n2. Ecology: Make the coverage area of Park and Open Space to 0.15 and 0.1 respectively.\n3. Economy: Make the valid coverage area of Business, Office and Recreation to 0.05, 0.05, 0.05 respectively.\n4. Equity: Make the number of small school, large school, small hospital and large hospital to 3, 6, 6, 2 respectively. Make the distances from schools and hospitals as equitable as possible for each residential area.",
+
+  "instructions": "1. Select three functional types from: Open Space, Office, Business, Recreation, Hospital, School, Park.\n2. Give the answer in the required format, without the need to state reasons. If possible, output: \"[functional_type_1, functional_type_2, ...]\". If there is too little information around, you can't give a definitive answer, output: \"No\".",
+
+  "resident": "Act as a city resident and score urban planning scheme based on the stakeholders represented by the city's residents.\n\nScoring Criteria:\n1. Can the proportion of each functional area in the planning scheme meet the daily needs of residents, and can residents live comfortably in it?",
+
+  "government": "Act as a city's government department and score urban planning scheme based on the stakeholders represented by the government.\n\nScoring Criteria:\n1. Can the proportion of each functional area in the planning scheme meet the requirements of sustainable development, and can the interests of residents and developers be taken into account at the same time?",
+
+  "developer": "Act as a city developer and score urban planning scheme based on  the stakeholders represented by individual developers.\n\nScoring Criteria:\n1. Can the proportion of each functional area in the planning scheme meet the needs of realizing as much commercial value as possible, and will it contribute to the economic growth of the city?"
+}
